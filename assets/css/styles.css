@@ -1,0 +1,81 @@
+#promo {
+  padding:40px;
+  text-align:center;
+  background:url(../../assets/img/swaziland2.jpg) no-repeat;
+  background-size:cover;
+}
+
+@media (min-width: 300px) {
+  #promo {
+    padding:120px;
+  }
+}
+
+#promo .jumbotron {
+  padding:50px;
+  border-radius:20px;
+  background-color:rgba(255,255,255,0.50);
+  max-width:300px;
+  margin:auto;
+}
+
+@media (min-width: 576px) {
+  #promo .jumbotron {
+    padding:20px;
+  }
+}
+
+body {
+  margin:0;
+  font-family:sans-serif;
+}
+
+.site-location {
+  text-align:center;
+  padding-bottom:70px;
+}
+
+.site location h1 {
+  font-weight:normal;
+  margin-bottom:30px;
+  margin-top:60px;
+}
+
+#logo {
+  margin-right:10px;
+  margin-top:-3px;
+  display:inline-block;
+  max-height:55px;
+}
+
+#why .item h2 {
+  margin-bottom:20px;
+  margin-top:13px;
+  font-weight:normal;
+}
+
+#why .item {
+  margin:36px;
+  padding-top:20px;
+}
+
+#why i {
+  font-size:43px;
+  color:green;
+}
+
+#into p {
+  max-width:800px;
+  font-size:20px;
+  margin:auto;
+}
+
+#dark-section {
+  background-color:lightblue;
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link:focus, .navigation-clean.navbar-light .navbar-nav .nav-link:hover {
+  color:red !important;
+  background-color:transparent;
+}
+
